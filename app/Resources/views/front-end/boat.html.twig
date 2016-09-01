@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Boat</h1>
+
+                {{ form_start(boatForm) }}
+                {{ form_row(boatForm.hullLength) }}
+                {{  form_row(boatForm.lengthUnit) }}
+                {{ form_row(boatForm.buttockAngle) }}
+                {{ form_row(boatForm.displacement) }}
+                {{  form_row(boatForm.dispUnit) }}
+                <button type="submit" class="btn btn-primary" formnovalidate>Save</button>
+                {{ form_end(boatForm) }}
+            </div>
+            <div class="col-xs-12">
+                {% if hpRequirment %}
+                <h1>Power Requirements (HP) : {{ hpRequirment }} </h1>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
