@@ -14,15 +14,18 @@ Problem fishing boat
 I am about to buy a small fishing boat in order to escape work at the weekend and go fishing. I have not yet decided on what boat to buy or what engine I will need. Different boats have different power requirements and I’d like to have a web application that helps me chose the appropriate power requirements for the boats I am viewing.
 Please implement a web application that allows me to enter the boat characteristics. The application should then display the power requirements (HP) that will be needed for a range of speeds starting from the theoretical hull speed up to 30 knots.
 The application should be in 2 distinct parts. It should have browser based front end that accepts the boat’s characteristics and a backend that calculates the power requirements. 
+
 The characteristics for my semi-displacement sports fisher are:
 1.	Hull Length (HL)
 2.	Buttock Angle in the range 2°-7°
 3.	Displacement (Disp)
+
 Because I am an old sea dog, I only understand; feet, lbs and knots and horses. However, you may convert units into metric if desired.
 
 ================================================
-<br>
+
 The following equations might help you:
+
 HP = (Disp/1000) * [Kts / (Cw * HL^½)]^3
 
 Cw = 0.8 + (0.17 * SL Ratio)
@@ -30,8 +33,10 @@ Cw = 0.8 + (0.17 * SL Ratio)
 Hull speed (Kts) = SL Ratio * HL^½
 
 SL Ratio = (Buttock Angle * -0.2) + 2.9
-<br>
+
 e.g. 
 26’ boat with Buttock Angle = 2°
+
 SL Ratio = (2 * -0.2) + 2.9 = 2.5
+
 Hull Speed = 2.5 * √26  = 12.75 knots
