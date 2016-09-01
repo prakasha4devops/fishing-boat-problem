@@ -19,11 +19,17 @@ The characteristics for my semi-displacement sports fisher are:
 2.	Buttock Angle in the range 2°-7°
 3.	Displacement (Disp)
 Because I am an old sea dog, I only understand; feet, lbs and knots and horses. However, you may convert units into metric if desired.
+
+================================================
 The following equations might help you:
 HP = (Disp/1000) * [Kts / (Cw * HL^½)]^3
+
 Cw = 0.8 + (0.17 * SL Ratio)
+
 Hull speed (Kts) = SL Ratio * HL^½
+
 SL Ratio = (Buttock Angle * -0.2) + 2.9
+<br>
 e.g. 
 26’ boat with Buttock Angle = 2°
 SL Ratio = (2 * -0.2) + 2.9 = 2.5
