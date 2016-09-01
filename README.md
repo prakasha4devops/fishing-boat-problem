@@ -1,4 +1,4 @@
 fishing-boat
 ============
 
-A Symfony project created on August 30, 2016, 8:26 pm.
+A Symfony 3 project created on August 30, 2016, 8:26 pm.
