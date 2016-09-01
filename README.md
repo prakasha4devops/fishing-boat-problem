@@ -21,6 +21,7 @@ The characteristics for my semi-displacement sports fisher are:
 Because I am an old sea dog, I only understand; feet, lbs and knots and horses. However, you may convert units into metric if desired.
 
 ================================================
+<br>
 The following equations might help you:
 HP = (Disp/1000) * [Kts / (Cw * HL^½)]^3
 
